@@ -424,13 +424,13 @@ body {
   line-height: 1.4;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
+::-moz-selection {
+  background: gray;
+  text-shadow: none;
 }
 
-::-moz-selection {
-  background: #f274b4;
+::selection {
+  background: gray;
   text-shadow: none;
 }
 
@@ -580,6 +580,11 @@ h6 {
 
 .no-underline:hover {
   border-bottom: 0 !important;
+}
+
+body {
+  -webkit-transform: rotate(-1deg);
+  transform: rotate(-1deg);
 }
 
 .logos li {

@@ -380,13 +380,8 @@ body {
   line-height: 1.4;
 }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-::-moz-selection {
-  background: #f274b4;
+::selection {
+  background: gray;
   text-shadow: none;
 }
 
@@ -525,6 +520,10 @@ h1, h2, h3, h4, h5, h6 {
  */
 .no-underline:hover {
   border-bottom: 0 !important;
+}
+
+body {
+  transform: rotate(-1deg);
 }
 
 .logos li {

@@ -1,0 +1,205 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"tooltip"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/private/var/folders/2t/3snz5ym93wg4c0_w6l_50lzm0000gn/T/fz3temp-1/mp3-bookmarklet.js",
+		"/private/var/folders/2t/3snz5ym93wg4c0_w6l_50lzm0000gn/T/fz3temp-1/index.html",
+		"/Users/dylanfisher/projects/mp3-bookmarklet/src/mp3-bookmarklet.js",
+		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dylanfisher/projects/mp3-bookmarklet/mp3-bookmarklet.js",
+		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/js/main.js",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/css/build/prefixed/application.css",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/package.json",
+		"/Users/dylanfisher/projects/My-Grunt-Boilerplate/package.json",
+		"/Users/dylanfisher/projects/My-Grunt-Boilerplate/Gruntfile.js",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/index.html",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/.gitignore",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/css/build/minified/application.css",
+		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/gruntfile.js",
+		"/Users/dylanfisher/projects/dylanfisher2014/my-website/css/build/application.css",
+		"/Users/dylanfisher/projects/My-Grunt-Boilerplate/css/global.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"swf",
+			"seek",
+			"inlineplayer.init",
+			"console",
+			"myBookmarklet",
+			"\n    ",
+			"$",
+			"accor",
+			" class=\"accordion-head\"",
+			" class=\"accordion-content\"",
+			"                ",
+			"li",
+			"                <",
+			"                ",
+			"::sele",
+			"selection",
+			"bold",
+			"open_files_in_new_window"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"js/",
+				"js/main.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"home",
+				"css/sass/partials/_home.scss"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"application.scss",
+				"css/sass/application.scss"
+			],
+			[
+				"gruntfile",
+				"gruntfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true
+}
