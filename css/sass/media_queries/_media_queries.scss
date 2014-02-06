@@ -1,0 +1,19 @@
+@media (max-width: 850px) {
+    header {
+        width: 100%;
+    }
+    .github {
+        display: none;
+    }
+    .experience {
+        width: 100%;
+        float: none;
+        padding: 0 !important;
+    }
+    ul {
+        padding-left: 4%;
+    }
+    .logos {
+        text-align: center;
+    }
+}

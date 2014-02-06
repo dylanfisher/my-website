@@ -424,13 +424,23 @@ body {
   line-height: 1.4;
 }
 
+a {
+  color: #00f;
+}
+
+a:active {
+  color: #000;
+}
+
 ::-moz-selection {
-  background: gray;
+  background: #E3E3E3;
+  color: #00f;
   text-shadow: none;
 }
 
 ::selection {
-  background: gray;
+  background: #E3E3E3;
+  color: #00f;
   text-shadow: none;
 }
 
@@ -445,11 +455,6 @@ hr {
 
 img {
   vertical-align: middle;
-}
-
-.entry-content img {
-  max-width: 100%;
-  height: auto;
 }
 
 fieldset {
@@ -583,8 +588,76 @@ h6 {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+
+header {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+header h1,
+header h2 {
+  display: inline;
+}
+
+header div {
+  margin-top: 15px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  margin: 10px 20px 20px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.experience {
+  width: 50%;
+  float: left;
+}
+
+.experience:nth-child(1) {
+  padding-right: 1.5%;
+}
+
+.experience:nth-child(2) {
+  padding-left: 1.5%;
+}
+
+.studio-experience .project:first-of-type {
+  margin-top: 1em;
+}
+
+.project ul li {
+  list-style: disc;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.logos {
+  margin-top: 40px;
 }
 
 .logos li {
@@ -592,8 +665,32 @@ body {
 }
 
 .logos img {
-  max-height: 70px;
+  max-height: 50px;
   height: auto;
+}
+
+@media (max-width: 850px) {
+  header {
+    width: 100%;
+  }
+
+  .github {
+    display: none;
+  }
+
+  .experience {
+    width: 100%;
+    float: none;
+    padding: 0 !important;
+  }
+
+  ul {
+    padding-left: 4%;
+  }
+
+  .logos {
+    text-align: center;
+  }
 }
 
 @media print {

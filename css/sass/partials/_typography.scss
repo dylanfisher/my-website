@@ -1,14 +1,24 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+    // font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    letter-spacing: 1px;
 }
-
-h2 {
-
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
 }
-
-.project {
-	ul {
-		
-	}
+header {
+    width: 50%;
+    margin-bottom: 20px;
+    h1, h2 {
+        display: inline;
+    }
+    div {
+        margin-top: 15px;
+    }
+}
+ul, li {
+    list-style: none;
 }

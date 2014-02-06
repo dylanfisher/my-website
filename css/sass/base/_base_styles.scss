@@ -12,11 +12,15 @@ body {
 }
 
 a {
-	
+	color: #00f;
+	&:active {
+		color: #000;
+	}
 }
 
 ::selection {
-	background: gray;
+	background: #E3E3E3;
+	color: #00f;
 	text-shadow: none;
 }
 
@@ -31,11 +35,6 @@ hr {
 
 img {
 	vertical-align: middle;
-}
-
-.entry-content img {
-	max-width: 100%;
-	height: auto;
 }
 
 fieldset {

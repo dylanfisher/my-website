@@ -11,6 +11,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/partials/_home.scss",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/application/main.js",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/application.scss",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,6 +84,7 @@
 	},
 	"file_history":
 	[
+		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/dylanfisher/Documents/webdesign/5andbox-test-install/wp-config.php",
 		"/Users/dylanfisher/Downloads/advanced-custom-field-export.xml",
 		"/Users/dylanfisher/Downloads/acf_function.php",
@@ -82,7 +123,6 @@
 		"/Users/dylanfisher/Documents/webdesign/5andbox-test-install/wp-content/index.php",
 		"/Users/dylanfisher/Documents/webdesign/5andbox-2014/_parent directory files/.htaccess",
 		"/Users/dylanfisher/projects/dylanfisher2014/my-website/js/build/main.js",
-		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/dylanfisher/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
 		"/Users/dylanfisher/projects/dylanfisher2014/my-website/gruntfile.js",
@@ -118,6 +158,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"');",
+			"console.log('",
+			"sass css",
+			"front end ",
+			"h4",
+			"h3",
+			"h1",
+			"h2",
+			"h1",
+			"h2",
+			"h3",
 			"unregister_widget_control",
 			"wp_unregister_widget_control",
 			"sandbox_gallery",
@@ -180,9 +231,14 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"\");",
+			"console.log(\"",
+			"h2",
+			"h3",
+			"h4",
 			"wp_unregister_widget_control",
 			"\\t",
 			"",
@@ -198,8 +254,156 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 12846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5966,
+								5966
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1048.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 2414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 829.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/sass/partials/_home.scss",
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/application/main.js",
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "css/sass/application.scss",
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -220,11 +424,25 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
@@ -244,6 +462,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gruntf",
+				"gruntfile.js"
+			],
+			[
+				"main.js",
+				"js/application/main.js"
+			],
+			[
+				"home",
+				"css/sass/partials/_home.scss"
+			],
+			[
+				"pplicationscss",
+				"css/sass/application.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
 			[
 				"functions",
 				"functions.php"
@@ -275,10 +513,6 @@
 			[
 				"base",
 				"css/sass/base/_base_styles.scss"
-			],
-			[
-				"home",
-				"css/sass/partials/_home.scss"
 			],
 			[
 				"grunt",
@@ -333,10 +567,6 @@
 				"header.php"
 			],
 			[
-				"index",
-				"index.php"
-			],
-			[
 				"404",
 				"404.php"
 			],
@@ -355,10 +585,6 @@
 			[
 				"main.",
 				"js/main.js"
-			],
-			[
-				"main.js",
-				"js/build/main.js"
 			],
 			[
 				"gruntfile",
