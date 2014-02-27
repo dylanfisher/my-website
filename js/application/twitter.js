@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $('#twitter-feed').html(headerHTML + loadingHTML);
 
-    $.getJSON('private/get-tweets1.1.php',
+    $.getJSON('get-tweets1.1.php',
         function(feeds) {
            //alert(feeds);
             var feedHTML = '';
