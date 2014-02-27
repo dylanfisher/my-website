@@ -1,18 +1,3 @@
-(function(){
-  // say hi
-  console.log('hi there');
-
-  // animated elephant favicon
-  var frames = 8,
-      frame = 0;
-  var anim = setInterval(function() {
-    frame++;
-    if(frame === frames - 1){
-      frame = 0;
-    }
-    document.getElementById('favicon').setAttribute('href', 'images/elephant/' + frame + '.png');
-  }, 400);
-})();
 // JQuery Twitter Feed. Coded by Tom Elliott @ www.webdevdoor.com (2013) based on https://twitter.com/javascripts/blogger.js
 // Requires JSON output from authenticating script: http://www.webdevdoor.com/php/authenticating-twitter-feed-timeline-oauth/
 $(document).ready(function () {
