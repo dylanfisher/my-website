@@ -5,7 +5,12 @@
     .github {
         display: none;
     }
-    .experience {
+    .experience-container {
+        width: 100%;
+        float: none;
+        padding: 0 !important;
+    }
+    .twitter-feed {
         width: 100%;
         float: none;
         padding: 0 !important;

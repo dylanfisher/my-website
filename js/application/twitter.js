@@ -1,23 +1,23 @@
 // JQuery Twitter Feed. Coded by Tom Elliott @ www.webdevdoor.com (2013) based on https://twitter.com/javascripts/blogger.js
 // Requires JSON output from authenticating script: http://www.webdevdoor.com/php/authenticating-twitter-feed-timeline-oauth/
 $(document).ready(function () {
-    var displaylimit = 3; // This number is dependent on the settings in get-tweets1.1.php! Use get-tweets1.1.php to limit number of tweets.
-    var twitterprofile = "aopublic";
-    var screenname = "Lainya Magana";
-    var showdirecttweets = true;
-    var showretweets = true;
+    var displaylimit = Infinity; // This number is dependent on the settings in get-tweets1.1.php! Use get-tweets1.1.php to limit number of tweets.
+    var twitterprofile = "xverdxse";
+    var screenname = "Dylan Fisher";
+    var showdirecttweets = false;
+    var showretweets = false;
     var showtweetlinks = true;
     var showprofilepic = false;
     var showtweetactions = false;
     var showretweetindicator = false;
-    
+
     var headerHTML = '';
     var loadingHTML = '';
     headerHTML += '<div id="twitter-header"></div>';
-    // loadingHTML += '<div id="loading-container"><img src="images/ajax-loader.gif" width="32" height="32" alt="tweet loader" /></div>';
-    
+    loadingHTML += '<div id="loading-container" class="loading-container">Loading...</div>';
+
     $('#twitter-feed').html(headerHTML + loadingHTML);
-     
+
     $.getJSON('private/get-tweets1.1.php',
         function(feeds) {
            //alert(feeds);
@@ -27,61 +27,71 @@ $(document).ready(function () {
                 var tweetscreenname = feeds[i].user.name;
                 var tweetusername = feeds[i].user.screen_name;
                 var profileimage = feeds[i].user.profile_image_url_https;
-                var status = feeds[i].text; 
+                var status = feeds[i].text;
                 var isaretweet = false;
                 var isdirect = false;
                 var tweetid = feeds[i].id_str;
-                
+                var media = feeds[i].entities.media;
+                var twitterImage;
+
+                if(typeof media != 'undefined'){
+                  for (var j = 0; j < media.length; j++) {
+                    twitterImage = '<img class="twitter-image" src="' + media[j].media_url + ':large' + '">';
+                  }
+                } else {
+                  twitterImage = '';
+                }
+
                 //If the tweet has been retweeted, get the profile pic of the tweeter
                 if(typeof feeds[i].retweeted_status != 'undefined'){
                    profileimage = feeds[i].retweeted_status.user.profile_image_url_https;
                    tweetscreenname = feeds[i].retweeted_status.user.name;
                    tweetusername = feeds[i].retweeted_status.user.screen_name;
                    tweetid = feeds[i].retweeted_status.id_str;
-                   status = feeds[i].retweeted_status.text; 
+                   status = feeds[i].retweeted_status.text;
                    isaretweet = true;
                  }
-                 
-                 
+
                  //Check to see if the tweet is a direct message
                  if (feeds[i].text.substr(0,1) == "@") {
                      isdirect = true;
                  }
-                 
-                //console.log(feeds[i]);
-                 
+
+                console.log(feeds[i]);
+
                  //Generate twitter feed HTML based on selected options
-                 if (((showretweets === true) || ((isaretweet === false) && (showretweets === false))) && ((showdirecttweets === true) || ((showdirecttweets === false) && (isdirect === false)))) { 
+                 if (((showretweets === true) || ((isaretweet === false) && (showretweets === false))) && ((showdirecttweets === true) || ((showdirecttweets === false) && (isdirect === false)))) {
                     if ((feeds[i].text.length > 1) && (displayCounter <= displaylimit)) {
                         if (showtweetlinks === true) {
                             status = addlinks(status);
                         }
-                         
+
                         if (displayCounter === 1) {
                             feedHTML += headerHTML;
                         }
-                                     
+
                         feedHTML += '<div class="twitter-article" id="tw'+displayCounter+'">';
                         // feedHTML += '<div class="twitter-pic"><a href="https://twitter.com/'+tweetusername+'" target="_blank"><img src="'+profileimage+'"images/twitter-feed-icon.png" width="42" height="42" alt="twitter icon" /></a></div>';
                         feedHTML += '<div class="twitter-date"><p><span class="tweet-time"><a href="https://twitter.com/'+tweetusername+'/status/'+tweetid+'" target="_blank">'+relative_time(feeds[i].created_at)+'</a></span></p></div>';
                         feedHTML += '<div class="twitter-text"><p>'+status+'</p>';
-                        
+                        feedHTML += twitterImage;
+
                         if ((isaretweet === true) && (showretweetindicator === true)) {
                             feedHTML += '<div id="retweet-indicator"></div>';
-                        }                       
+                        }
                         if (showtweetactions === true) {
                             feedHTML += '<div id="twitter-actions"><div class="intent" id="intent-reply"><a href="https://twitter.com/intent/tweet?in_reply_to='+tweetid+'" title="Reply"></a></div><div class="intent" id="intent-retweet"><a href="https://twitter.com/intent/retweet?tweet_id='+tweetid+'" title="Retweet"></a></div><div class="intent" id="intent-fave"><a href="https://twitter.com/intent/favorite?tweet_id='+tweetid+'" title="Favourite"></a></div></div>';
                         }
-                        
+
                         feedHTML += '</div>';
                         feedHTML += '</div>';
                         displayCounter++;
-                    }   
+                    }
                  }
             }
-             
+
             $('#twitter-feed').html(feedHTML);
-            
+
             //Add twitter action animation and rollovers
             if (showtweetactions === true) {
                 $('.twitter-article').hover(function(){
@@ -92,50 +102,16 @@ $(document).ready(function () {
                         $(this).css('display', 'none');
                     });
                 });
-            
+
                 //Add new window for action clicks
-            
+
                 $('#twitter-actions a').click(function(){
                     var url = $(this).attr('href');
                   window.open(url, 'tweet action window', 'width=580,height=500');
                   return false;
                 });
             }
-            
-            function animatetweets() {  
-                var tweetdelaytime = 5000;
-                var tweetfadetime = 250;
-                var fadeoffsetin = 0;
-                var fadeoffsetout = 0;
-                
-                var starttweet = 1;
-                var animatetweet = starttweet;
-                
-                
-                for (var i=starttweet; i<displayCounter; i++) {
-                    $('#tw'+i).css({'display': 'none', 'opacity':0});
-                }           
-                fadetweet();
-                function fadetweet(){
-                    
-                    $('#tw'+animatetweet).css({'display': 'block'});
-                    $('#tw'+animatetweet).css('margin-top', -fadeoffsetin);
-                    $('#tw'+animatetweet).animate({'opacity': 1, 'margin-top':0},tweetfadetime, function(){
-                        $('#tw'+animatetweet).delay(tweetdelaytime).animate({'opacity': 0, 'margin-top':fadeoffsetout},tweetfadetime, function(){
-                            $('#tw'+animatetweet).css({'display': 'none', 'margin-top':0});
-                            if (animatetweet < displayCounter-2+starttweet) {
-                                animatetweet++;
-                            } else {
-                                animatetweet = 0+starttweet;
-                            }
-                            setTimeout(fadetweet, 0);
-                        });
-                    });
-                }
-            }
-            
-            animatetweets();
-            
+
     }).error(function(jqXHR, textStatus, errorThrown) {
         var error = "";
              if (jqXHR.status === 0) {
@@ -152,18 +128,18 @@ $(document).ready(function () {
                 error = 'Ajax request aborted.';
             } else {
                 error = 'Uncaught Error.\n' + jqXHR.responseText;
-            }   
+            }
             // alert("error: " + error);
     });
-    
+
 
     //Function modified from Stack Overflow
     function addlinks(data) {
         //Add link to all http:// links within tweets
-        // data = data.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
-        //     return '<a href="'+url+'" >'+url+'</a>';
-        // });
-             
+        data = data.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s<\>]*[^.,;'">\:\s<\>\)\]\!])/g, function(url) {
+            return '<a href="'+url+'" >'+url+'</a>';
+        });
+
         //Add link to @usernames used within tweets
         data = data.replace(/\B@([_a-z0-9]+)/ig, function(reply) {
             return '<a href="http://twitter.com/'+reply.substring(1)+'" style="font-weight:lighter;" target="_blank">'+reply.charAt(0)+reply.substring(1)+'</a>';
@@ -174,17 +150,17 @@ $(document).ready(function () {
         });
         return data;
     }
-     
-     
+
+
     function relative_time(time_value) {
       var values = time_value.split(" ");
       time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
       var parsed_date = Date.parse(time_value);
       var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
       var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
-      var shortdate = time_value.substr(4,2) + " " + time_value.substr(0,3);
+      var shortdate = values[1] + " " + values[2] + ", " + values[5];
       delta = delta + (relative_to.getTimezoneOffset() * 60);
-     
+
       if (delta < 60) {
         return '1 minute ago';
       } else if(delta < 120) {
@@ -202,5 +178,5 @@ $(document).ready(function () {
         return shortdate;
       }
     }
-     
+
 });
