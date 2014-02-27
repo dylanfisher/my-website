@@ -95,7 +95,7 @@ $(document).ready(function () {
                      isdirect = true;
                  }
 
-                console.log(feeds[i]);
+                // console.log(feeds[i]);
 
                  //Generate twitter feed HTML based on selected options
                  if (((showretweets === true) || ((isaretweet === false) && (showretweets === false))) && ((showdirecttweets === true) || ((showdirecttweets === false) && (isdirect === false)))) {
