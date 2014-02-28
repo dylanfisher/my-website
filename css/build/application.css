@@ -541,12 +541,22 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-size: 1.5em;
+}
+
+.experience-container h2,
+.twitter-feed h2 {
+  margin-bottom: 0;
 }
 
 ul, li {
@@ -559,7 +569,7 @@ ul, li {
 }
 
 .wrapper {
-  padding: 10px 20px 20px;
+  padding: 12px 20px 100px;
 }
 
 ul {
@@ -567,21 +577,22 @@ ul {
 }
 
 header {
-  width: 50%;
-  margin-bottom: 1em;
+  width: 43.5%;
+  margin-bottom: 3em;
 }
-header h1, header h2 {
-  display: inline;
-}
-header div {
-  margin-top: 15px;
+header h2 {
+  margin-top: .6em;
+  font-size: 1em;
 }
 
 .twitter-feed {
   width: 50%;
   float: left;
-  padding-left: 2.5%;
   position: relative;
+  padding-right: 4%;
+  padding-left: 6%;
+  direction: rtl;
+  text-align: right;
 }
 .twitter-feed img {
   max-width: 100%;
@@ -594,9 +605,9 @@ header div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-top: 200px;
 }
 .twitter-feed .twitter-text {
-  display: list-item;
   margin-left: 40px;
 }
 .twitter-feed .twitter-image {
@@ -610,18 +621,15 @@ header div {
 .experience-container {
   width: 50%;
   float: left;
-  padding-right: 2.5%;
+  padding-right: 6%;
 }
 
 .studio-experience {
   float: none;
+  margin-top: 3em;
 }
 .studio-experience .project:first-of-type {
   margin-top: 1em;
-}
-
-.project ul li {
-  list-style: disc;
 }
 
 .title {
@@ -662,6 +670,10 @@ header div {
 }
 
 @media (max-width: 850px) {
+  body {
+    text-align: left;
+  }
+
   header {
     width: 100%;
   }

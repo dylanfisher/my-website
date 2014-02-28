@@ -1,24 +1,25 @@
 .wrapper {
-    padding: 10px 20px 20px;
+    padding: 12px 20px 100px;
 }
 ul {
     margin-top: 0;
 }
 header {
-    width: 50%;
-    margin-bottom: 1em;
-    h1, h2 {
-        display: inline;
-    }
-    div {
-        margin-top: 15px;
+    width: 43.5%;
+    margin-bottom: 3em;
+    h2 {
+        margin-top: .6em;
+        font-size: 1em;
     }
 }
 .twitter-feed {
     width: 50%;
     float: left;
-    padding-left: 2.5%;
     position: relative;
+    padding-right: 4%;
+    padding-left: 6%;
+    direction: rtl;
+    text-align: right;
     img {
         max-width: 100%;
         max-height: 450px;
@@ -30,9 +31,9 @@ header {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin-top: 200px;
     }
     .twitter-text {
-        display: list-item;
         margin-left: 40px;
     }
     .twitter-image {
@@ -47,19 +48,13 @@ header {
     @extend %clearfix;
     width: 50%;
     float: left;
-    padding-right: 2.5%;
+    padding-right: 6%;
 }
 .studio-experience {
     float: none;
+    margin-top: 3em;
     .project:first-of-type {
         margin-top: 1em;
-    }
-}
-.project {
-    ul {
-        li {
-            list-style: disc;
-        }
     }
 }
 .title {

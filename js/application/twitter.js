@@ -13,10 +13,10 @@ $(document).ready(function () {
 
     var headerHTML = '';
     var loadingHTML = '';
-    headerHTML += '<div id="twitter-header"></div>';
+    headerHTML += '<h2 class="title">Feed</h2>';
     loadingHTML += '<div id="loading-container" class="loading-container">Loading...</div>';
 
-    $('#twitter-feed').html(headerHTML + loadingHTML);
+    $('#twitter-feed').html(loadingHTML);
 
     $.getJSON('private/get-tweets1.1.php',
         function(feeds) {
