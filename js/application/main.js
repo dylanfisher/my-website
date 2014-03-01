@@ -35,4 +35,5 @@ $(function() {
       $('#wrapper').removeClass('blur');
     }
   });
+
 });

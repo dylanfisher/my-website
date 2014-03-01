@@ -20,6 +20,7 @@ $(document).ready(function () {
 
     $.getJSON('private/get-tweets1.1.php',
         function(feeds) {
+          // console.log(feeds);
            //alert(feeds);
             var feedHTML = '';
             var displayCounter = 1;

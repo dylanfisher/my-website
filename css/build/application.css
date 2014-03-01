@@ -569,7 +569,7 @@ ul, li {
 }
 
 .wrapper {
-  padding: 12px 20px 100px;
+  padding: 12px 20px 40px;
 }
 
 ul {
@@ -612,7 +612,6 @@ header h2 {
 }
 .twitter-feed .twitter-image {
   cursor: pointer;
-  cursor: alias;
 }
 .twitter-feed .twitter-date {
   margin-bottom: -1em;
@@ -667,6 +666,30 @@ header h2 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.weather {
+  vertical-align: baseline;
+}
+.weather .location {
+  margin-bottom: -0.5em;
+}
+.weather .divider {
+  vertical-align: middle;
+  font-size: 0.8em;
+  padding: 0 0.7em;
+  height: 1.8em;
+  display: inline-block;
+}
+.weather .icon {
+  color: blue;
+  vertical-align: super;
+  cursor: pointer;
 }
 
 @media (max-width: 850px) {
