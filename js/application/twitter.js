@@ -14,7 +14,7 @@ $(document).ready(function () {
     var headerHTML = '';
     var loadingHTML = '';
     headerHTML += '<h2 class="title">Feed</h2>';
-    loadingHTML += '<div id="loading-container" class="loading-container">Loading...</div>';
+    loadingHTML += '<div id="loading-container" class="loading-container"></div>';
 
     $('#twitter-feed').html(loadingHTML);
 
