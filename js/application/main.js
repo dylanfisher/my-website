@@ -36,4 +36,22 @@ $(function() {
     }
   });
 
+  $(document).on('click', '#emoji-container', function(){
+    $('#emoji-container').html('');
+  });
+
+  var timer;
+  setInterval(function(){
+    randX = Math.floor(Math.random() * $(document).width() - 50);
+    randY = Math.floor(Math.random() * $(document).height()) - 50;
+    $('#emoji-container').append('<div style="top:' + randY + 'px; left:' + randX + 'px;">' + randomEmoji() + '</div>');
+  }, 2000);
+
+  emojiLength = emojiArray.length;
+  function randomEmoji(){
+    var rand = Math.floor(Math.random() * emojiLength);
+    var emoji = decodeURI( emojiArray[rand] );
+    return emoji;
+  }
+
 });

@@ -16,6 +16,8 @@ $(document).ready(function () {
     headerHTML += '<h2 class="title">Feed</h2>';
     loadingHTML += '<div id="loading-container" class="loading-container"></div>';
 
+    var expandedUrl = [];
+
     $('#twitter-feed').html(loadingHTML);
 
     $.getJSON('private/get-tweets1.1.php',
@@ -34,6 +36,16 @@ $(document).ready(function () {
                 var tweetid = feeds[i].id_str;
                 var media = feeds[i].entities.media;
                 var twitterImage;
+                var urls = feeds[i].entities.urls;
+
+                if(typeof urls != 'undefined'){
+                  for (var l = 0; l < urls.length; l++) {
+                    expandedUrl = urls[l].expanded_url;
+                    // console.log(expandedUrl);
+                  }
+                } else {
+                  expandedUrl = '';
+                }
 
                 if(typeof media != 'undefined'){
                   for (var j = 0; j < media.length; j++) {
@@ -73,7 +85,7 @@ $(document).ready(function () {
 
                         feedHTML += '<div class="twitter-article" id="tw'+displayCounter+'">';
                         // feedHTML += '<div class="twitter-pic"><a href="https://twitter.com/'+tweetusername+'" target="_blank"><img src="'+profileimage+'"images/twitter-feed-icon.png" width="42" height="42" alt="twitter icon" /></a></div>';
-                        feedHTML += '<div class="twitter-date"><p><span class="tweet-time"><a href="https://twitter.com/'+tweetusername+'/status/'+tweetid+'" target="_blank">'+relative_time(feeds[i].created_at)+'</a></span></p></div>';
+                        feedHTML += '<div class="twitter-date"><p><span class="tweet-time">'+relative_time(feeds[i].created_at)+'</span></p></div>';
                         feedHTML += '<div class="twitter-text"><p>'+status+'</p>';
                         feedHTML += twitterImage;
 
@@ -138,7 +150,7 @@ $(document).ready(function () {
     function addlinks(data) {
         //Add link to all http:// links within tweets
         data = data.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s<\>]*[^.,;'">\:\s<\>\)\]\!])/g, function(url) {
-            return '<a href="'+url+'" >'+url+'</a>';
+            return '<a class="twitter-url" href="'+expandedUrl+'" >'+expandedUrl+'</a>';
         });
 
         //Add link to @usernames used within tweets

@@ -626,6 +626,10 @@ h3 {
   font-size: 1.5em;
 }
 
+.studio-name {
+  font-size: 1em;
+}
+
 .experience-container h2,
 .twitter-feed h2 {
   margin-bottom: 0;
@@ -643,8 +647,17 @@ li {
   transform: translate3d(0, 0, 0);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .wrapper {
   padding: 12px 20px 40px;
+}
+
+.inner-wrapper img {
+  position: relative;
+  z-index: 1;
 }
 
 ul {
@@ -657,7 +670,6 @@ header {
 }
 
 header h2 {
-  margin-top: .6em;
   font-size: 1em;
 }
 
@@ -667,7 +679,6 @@ header h2 {
   position: relative;
   padding-right: 4%;
   padding-left: 6%;
-  direction: rtl;
   text-align: right;
 }
 
@@ -766,10 +777,6 @@ footer {
   vertical-align: baseline;
 }
 
-.weather .location {
-  margin-bottom: -0.5em;
-}
-
 .weather .divider {
   vertical-align: middle;
   font-size: 0.8em;
@@ -780,7 +787,19 @@ footer {
 
 .weather .icon {
   color: blue;
-  vertical-align: super;
+  cursor: pointer;
+}
+
+.emoji-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  white-space: nowrap;
+}
+
+.emoji-container div {
+  position: absolute;
   cursor: pointer;
 }
 

@@ -1,5 +1,14 @@
+body {
+    overflow-x: hidden;
+}
 .wrapper {
     padding: 12px 20px 40px;
+}
+.inner-wrapper {
+    img {
+        position: relative;
+        z-index: 1;
+    }
 }
 ul {
     margin-top: 0;
@@ -8,7 +17,6 @@ header {
     width: 43.5%;
     margin-bottom: 3em;
     h2 {
-        margin-top: .6em;
         font-size: 1em;
     }
 }
@@ -18,7 +26,6 @@ header {
     position: relative;
     padding-right: 4%;
     padding-left: 6%;
-    direction: rtl;
     text-align: right;
     img {
         max-width: 100%;
@@ -99,7 +106,6 @@ footer {
 .weather {
     vertical-align: baseline;
     .location {
-        margin-bottom: -0.5em;
     }
     .divider {
         vertical-align: middle;
@@ -110,7 +116,18 @@ footer {
     }
     .icon {
         color: blue;
-        vertical-align: super;
+        cursor: pointer;
+    }
+}
+
+.emoji-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    white-space: nowrap;
+    div {
+        position: absolute;
         cursor: pointer;
     }
 }
