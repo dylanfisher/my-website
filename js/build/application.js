@@ -2522,22 +2522,44 @@ $(function() {
     }
   });
 
+  $('#emoji-toggle').click(function(){
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+      $(this).html('<img src="images/smiley-sad.svg" title="Turn emoji on">');
+      $('#head-title').html('Dylan Fisher');
+      $('#emoji-container').html('');
+      clearInterval(emojiInterval);
+    } else {
+      $(this).addClass('active');
+      $(this).html('<img src="images/smiley.svg" title="Turn emoji off">');
+      addEmoji();
+    }
+  });
+
   $(document).on('click', '#emoji-container', function(){
     $('#emoji-container').html('');
   });
 
-  var timer;
-  setInterval(function(){
-    randX = Math.floor(Math.random() * $(document).width() - 50);
-    randY = Math.floor(Math.random() * $(document).height()) - 50;
-    $('#emoji-container').append('<div style="top:' + randY + 'px; left:' + randX + 'px;">' + randomEmoji() + '</div>');
-  }, 2000);
-
-  emojiLength = emojiArray.length;
+  var emojiLength = emojiArray.length;
   function randomEmoji(){
     var rand = Math.floor(Math.random() * emojiLength);
     var emoji = decodeURI( emojiArray[rand] );
     return emoji;
+  }
+
+  addEmoji();
+  var emojiInterval;
+  function addEmoji(){
+    if($(window).width() > 850){
+      var timer;
+      emojiInterval = setInterval(function(){
+        emoji = randomEmoji();
+        $('#head-title').html(emoji);
+        randX = Math.floor(Math.random() * $(document).width() - 50);
+        randY = Math.floor(Math.random() * $(document).height()) - 50;
+        $('#emoji-container').append('<div style="top:' + randY + 'px; left:' + randX + 'px;">' + emoji + '</div>');
+      }, 2000);
+    }
   }
 
 });

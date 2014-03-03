@@ -686,6 +686,7 @@ footer {
 
 .weather {
   vertical-align: baseline;
+  position: relative;
 }
 .weather .divider {
   vertical-align: middle;
@@ -697,6 +698,16 @@ footer {
 .weather .icon {
   color: blue;
   cursor: pointer;
+}
+
+.emoji-toggle {
+  position: absolute;
+  right: 4%;
+  cursor: pointer;
+}
+.emoji-toggle img {
+  height: 1em;
+  width: auto;
 }
 
 .emoji-container {
@@ -742,6 +753,10 @@ footer {
 
   .logos {
     text-align: center;
+  }
+
+  .emoji-toggle {
+    display: none;
   }
 }
 @media print {

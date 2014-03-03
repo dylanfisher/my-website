@@ -105,8 +105,7 @@ footer {
 }
 .weather {
     vertical-align: baseline;
-    .location {
-    }
+    position: relative;
     .divider {
         vertical-align: middle;
         font-size: 0.8em;
@@ -119,7 +118,15 @@ footer {
         cursor: pointer;
     }
 }
-
+.emoji-toggle {
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+    img {
+        height: 1em;
+        width: auto;
+    }
+}
 .emoji-container {
     position: absolute;
     top: 0;
