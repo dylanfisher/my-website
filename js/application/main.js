@@ -82,7 +82,9 @@ $(function() {
     clearInterval(emojiInterval);
     $('#head-title').html('Dylan Fisher');
     mouseMoving = setTimeout(function() {
-      addEmoji();
+      if($('#emoji-toggle.active').length){
+        addEmoji();
+      }
     }, 2000);
   });
 
