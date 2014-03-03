@@ -2547,7 +2547,6 @@ $(function() {
     return emoji;
   }
 
-  addEmoji();
   var emojiInterval;
   function addEmoji(){
     if($(window).width() > 850){
@@ -2561,6 +2560,17 @@ $(function() {
       }, 2000);
     }
   }
+
+  // Start and stopp emoji if mouse isn't moving
+  var mouseMoving = false;
+  $(document).mousemove(function() {
+    clearTimeout(mouseMoving);
+    clearInterval(emojiInterval);
+    $('#head-title').html('Dylan Fisher');
+    mouseMoving = setTimeout(function() {
+      addEmoji();
+    }, 2000);
+  });
 
 });
 // JQuery Twitter Feed. Coded by Tom Elliott @ www.webdevdoor.com (2013) based on https://twitter.com/javascripts/blogger.js
