@@ -1,8 +1,11 @@
+.twitter-article,
 .experience-container {
   *zoom: 1;
 }
 
+.twitter-article:before,
 .experience-container:before,
+.twitter-article:after,
 .experience-container:after {
   content: " ";
   /* 1 */
@@ -10,6 +13,7 @@
   /* 2 */
 }
 
+.twitter-article:after,
 .experience-container:after {
   clear: both;
 }
@@ -682,6 +686,11 @@ header h2 {
   text-align: right;
 }
 
+.twitter-feed iframe,
+.twitter-feed img {
+  margin-top: .5em;
+}
+
 .twitter-feed img {
   max-width: 100%;
   max-height: 450px;
@@ -702,12 +711,34 @@ header h2 {
   margin-left: 40px;
 }
 
+.twitter-feed .twitter-text p {
+  margin: 0;
+}
+
+.twitter-feed .twitter-text p + p {
+  margin-top: 1em;
+}
+
 .twitter-feed .twitter-image {
   cursor: pointer;
 }
 
 .twitter-feed .twitter-date {
   margin-bottom: -1em;
+}
+
+iframe {
+  position: relative;
+  z-index: 1;
+}
+
+.twitter-feed iframe {
+  float: right;
+}
+
+.twitter-text,
+.twitter-text p {
+  float: right;
 }
 
 .experience-container {

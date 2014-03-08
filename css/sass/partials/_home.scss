@@ -27,6 +27,10 @@ header {
     padding-right: 4%;
     padding-left: 6%;
     text-align: right;
+    iframe,
+    img {
+        margin-top: .5em;
+    }
     img {
         max-width: 100%;
         max-height: 450px;
@@ -42,6 +46,12 @@ header {
     }
     .twitter-text {
         margin-left: 40px;
+        p {
+            margin: 0;
+            & + p {
+                margin-top: 1em;
+            }
+        }
     }
     .twitter-image {
         cursor: pointer;
@@ -49,6 +59,20 @@ header {
     .twitter-date {
         margin-bottom: -1em;
     }
+}
+.twitter-article {
+    @extend %clearfix;
+}
+iframe {
+    position: relative;
+    z-index: 1;
+    .twitter-feed & {
+        float: right;
+    }
+}
+.twitter-text,
+.twitter-text p {
+    float: right;
 }
 .experience-container {
     @extend %clearfix;

@@ -17,6 +17,7 @@ $(document).ready(function () {
     loadingHTML += '<div id="loading-container" class="loading-container"></div>';
 
     var expandedUrl = [];
+    var youtubeIds;
 
     $('#twitter-feed').html(loadingHTML);
 
@@ -39,6 +40,8 @@ $(document).ready(function () {
                 var urls = feeds[i].entities.urls;
 
                 if(typeof urls != 'undefined'){
+                  var youtubeIds;
+                  var idArrays;
                   for (var l = 0; l < urls.length; l++) {
                     expandedUrl = urls[l].expanded_url;
                     // console.log(expandedUrl);
@@ -145,12 +148,25 @@ $(document).ready(function () {
             // alert("error: " + error);
     });
 
-
     //Function modified from Stack Overflow
     function addlinks(data) {
         //Add link to all http:// links within tweets
         data = data.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s<\>]*[^.,;'">\:\s<\>\)\]\!])/g, function(url) {
-            return '<a class="twitter-url" href="'+expandedUrl+'" >'+expandedUrl+'</a>';
+            if(expandedUrl.indexOf('//www.youtube.com/watch?v=') !== -1){
+              // Check for youtube videos
+              // console.log(expandedUrl);
+              idArrays = expandedUrl.match(/watch\?v=(.*)?/);
+              youtubeIds = idArrays[idArrays.length - 1];
+              if(youtubeIds.indexOf('&') !== -1){
+                youtubeId = youtubeIds.substr(0, youtubeIds.indexOf('&'));
+              } else {
+                youtubeId = youtubeIds;
+              }
+              // console.log(youtubeId);
+              return '<iframe class="youtube-video" type="text/html" width="320" height="195" src="http://www.youtube.com/embed/' + youtubeId + '?controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" frameborder="0"/>';
+            } else {
+              return '<a class="twitter-url" href="'+expandedUrl+'" >'+expandedUrl+'</a>';
+            }
         });
 
         //Add link to @usernames used within tweets
