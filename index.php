@@ -82,7 +82,7 @@
       <h2 class="github"><a class="github" href="https://github.com/dylanfisher" target="_blank">Github</a></h2>
       <h2 class="title">about</h2>
       <div>
-         <p>I'm a web developer and programmer with a background in Fine Art. I am well versed in HTML, CSS and Javascript. Currently I'm learning Ruby on Rails, fine tuning my Grunt workflow and learning how to manage databases. Currently available for collaboration.</p>
+         <p>I'm a web developer and programmer with a background in Fine Art. I am well versed in HTML, CSS and Javascript. Right now I'm learning Ruby on Rails, fine tuning my Grunt workflow and learning how to manage databases. Currently available for collaboration.</p>
       </div>
     </header>
     <h2 class="title">work</h2>
