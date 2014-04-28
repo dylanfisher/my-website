@@ -101,7 +101,7 @@
     <ul class="project">
       <li>2014</li>
       <li><h3>Field Notes from Tel Aviv</h3></li>
-      <li>private</li>
+      <li>&nbsp;</li>
       <li>with <a href="http://othermeans.us/" target="_blank">Other Means</a></li>
     </ul>
     <ul class="project">
