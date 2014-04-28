@@ -4,6 +4,7 @@
 @import "modules/mixins";
 
 // Base
+@import "base/fonts";
 @import "base/normalize";
 @import "base/base_styles";
 @import "base/chromeframe";
@@ -12,7 +13,7 @@
 // Partials
 @import "partials/typography";
 @import "partials/ui_elements";
-@import "partials/home";
+@import "partials/main";
 
 // Vendor
 

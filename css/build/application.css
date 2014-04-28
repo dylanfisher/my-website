@@ -1,14 +1,26 @@
-.twitter-article, .experience-container {
+body {
+  font-family: "neuzeit";
+}
+
+.project {
   *zoom: 1;
 }
-.twitter-article:before, .experience-container:before, .twitter-article:after, .experience-container:after {
+.project:before, .project:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-.twitter-article:after, .experience-container:after {
+.project:after {
   clear: both;
+}
+
+@font-face {
+  font-family: 'neuzeit';
+  src: url("../../../fonts/urw_neuzeitgrotesktot-reg-webfont-webfont.eot");
+  src: url("../../../fonts/urw_neuzeitgrotesktot-reg-webfont-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/urw_neuzeitgrotesktot-reg-webfont-webfont.woff") format("woff"), url("../../../fonts/urw_neuzeitgrotesktot-reg-webfont-webfont.ttf") format("truetype"), url("../../../fonts/urw_neuzeitgrotesktot-reg-webfont-webfont.svg#neuzeit_gro_t_otregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -385,7 +397,7 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: #000;
 }
 
 body {
@@ -442,6 +454,16 @@ div {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .chromeframe {
@@ -538,33 +560,17 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 0 !important;
 }
 
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  text-align: justify;
-}
-
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 1px;
   font-weight: normal;
 }
 
-h1, h2, h3 {
-  font-size: 1.5em;
+h1,
+h2 {
+  font-size: 24px;
 }
 
-.studio-name {
-  font-size: 1em;
-}
-
-.experience-container h2,
-.twitter-feed h2 {
-  margin-bottom: 0;
-}
-
-ul, li {
-  list-style: none;
+h3 {
+  font-size: 16px;
 }
 
 .blur {
@@ -572,214 +578,119 @@ ul, li {
   transform: translate3d(0, 0, 0);
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .wrapper {
-  padding: 12px 20px 40px;
-}
-
-.inner-wrapper img {
+  width: 75%;
+  margin: 20px auto;
   position: relative;
-  z-index: 1;
 }
 
-ul {
-  margin-top: 0;
+.link-active * {
+  color: #00f;
+}
+.link-active a {
+  color: #000;
+}
+.link-active .blue,
+.link-active .blue span {
+  color: #000;
 }
 
-header {
-  width: 43.5%;
-  margin-bottom: 3em;
-}
-header h2 {
-  font-size: 1em;
+.blue {
+  color: #00f;
 }
 
-.twitter-feed {
-  width: 50%;
-  float: left;
-  position: relative;
-  padding-right: 4%;
-  padding-left: 6%;
-  text-align: right;
-}
-.twitter-feed iframe,
-.twitter-feed img {
-  margin-top: .5em;
-}
-.twitter-feed img {
-  max-width: 100%;
-  max-height: 450px;
-  width: auto;
-  height: auto;
-}
-.twitter-feed .loading-container {
-  position: absolute;
-  top: 50%;
+.weather {
+  position: fixed;
+  top: 20px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 200px;
-}
-.twitter-feed .twitter-text {
-  margin-left: 40px;
-}
-.twitter-feed .twitter-text p {
-  margin: 0;
-}
-.twitter-feed .twitter-text p + p {
-  margin-top: 1em;
-}
-.twitter-feed .twitter-image {
+  transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 1;
   cursor: pointer;
 }
-.twitter-feed .twitter-date {
-  margin-bottom: -1em;
+
+.icon {
+  color: #00f;
 }
 
-iframe {
-  position: relative;
-  z-index: 1;
-}
-.twitter-feed iframe {
-  float: right;
+.location,
+.date {
+  display: block;
 }
 
-.twitter-text,
-.twitter-text p {
-  float: right;
-}
-
-.experience-container {
-  width: 50%;
-  float: left;
-  padding-right: 6%;
-}
-
-.studio-experience {
-  float: none;
-  margin-top: 3em;
-}
-.studio-experience .project:first-of-type {
-  margin-top: 1em;
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .title {
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
-.logos li {
+.project {
+  position: relative;
+  max-width: 900px;
+  margin-bottom: .4em;
+}
+.project > li {
+  float: left;
+}
+.project > li:first-child {
+  width: 8%;
+}
+.project > li:nth-child(2) {
+  width: 30.66%;
+}
+.project > li:nth-child(3) {
+  width: 30.66%;
+}
+.project > li:nth-child(4) {
+  width: 30.66%;
+}
+.project li {
+  display: inline-block;
+}
+
+.twitter-feed p {
   display: inline;
 }
-.logos img {
-  max-height: 1em;
-  height: auto;
-  width: auto;
-  vertical-align: baseline;
-}
 
-.overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  left: 0;
-  top: 0;
-  padding: 40px;
-  cursor: pointer;
-  user-select: none;
+.twitter-article {
+  margin-bottom: .4em;
 }
-.overlay img {
-  box-shadow: 0 0 115px #000;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.twitter-article > div {
+  display: inline;
 }
 
 footer {
   text-align: center;
-  margin-top: 100px;
+  font-size: 24px;
+  margin: 40px 0;
 }
 
-.weather {
-  vertical-align: baseline;
-  position: relative;
-}
-.weather .divider {
-  vertical-align: middle;
-  font-size: 0.8em;
-  padding: 0 0.7em;
-  height: 1.8em;
-  display: inline-block;
-}
-.weather .icon {
-  color: blue;
-  cursor: pointer;
-}
-
-.emoji-toggle {
-  position: absolute;
-  right: 4%;
-  cursor: pointer;
-}
-.emoji-toggle img {
-  height: 1em;
-  width: auto;
-}
-
-.emoji-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: red;
-  white-space: nowrap;
-}
-.emoji-container div {
-  position: absolute;
-  cursor: pointer;
-}
-
-@media (max-width: 850px) {
-  body {
-    text-align: left;
-  }
-
-  header {
+@media (max-width: 650px) {
+  .wrapper {
     width: 100%;
+    padding: 10px;
+    margin: 0;
   }
 
+  .info,
+  .weather,
   .github {
-    display: none;
-  }
-
-  .experience-container {
-    width: 100%;
-    float: none;
-    padding: 0 !important;
-  }
-
-  .twitter-feed {
-    width: 100%;
-    float: none;
-    padding: 0 !important;
-  }
-
-  ul {
-    padding-left: 4%;
-  }
-
-  .logos {
+    position: static;
+    transform: none;
     text-align: center;
   }
 
-  .emoji-toggle {
-    display: none;
+  .weather {
+    margin: 20px 0;
+  }
+
+  .project > li {
+    float: none;
+    width: 100% !important;
   }
 }
 @media print {

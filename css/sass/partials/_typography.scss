@@ -1,30 +1,16 @@
 body {
-    // font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    text-align: justify;
+  @extend %nzl;
 }
+
 h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 1px;
-    font-weight: normal;
+  font-weight: normal;
 }
-h1, h2, h3 {
-    font-size: 1.5em;
+
+h1,
+h2 {
+  font-size: 24px;
 }
-h1 {
-    // font-family: futura;
-}
-.studio-name {
-    font-size: 1em;
-}
-.experience-container,
-.twitter-feed {
-    h2 {
-        // font-family: futura;
-        margin-bottom: 0;
-    }
-}
-ul, li {
-    list-style: none;
+
+h3 {
+  font-size: 16px;
 }

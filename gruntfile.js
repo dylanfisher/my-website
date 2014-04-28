@@ -75,8 +75,14 @@ module.exports = function(grunt) {
       options: {
         livereload: true,
       },
-      php: {
+      html: {
         files: ['*.html'],
+        options: {
+          spawn: false,
+        }
+      },
+      php: {
+        files: ['*.php'],
         options: {
           spawn: false,
         }

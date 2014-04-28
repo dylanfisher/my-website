@@ -1,0 +1,95 @@
+.wrapper {
+  width: 75%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.link-active {
+  * {
+    color: #00f;
+  }
+  a {
+    color: #000;
+  }
+  .blue,
+  .blue span {
+    color: #000;
+  }
+}
+
+.blue {
+  color: #00f;
+}
+
+.weather {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.icon {
+  color: #00f;
+}
+
+.location,
+.date {
+  display: block;
+}
+
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.project {
+  @extend %clearfix;
+  position: relative;
+  max-width: 900px;
+  margin-bottom: .4em;
+  & > li {
+    float: left;
+    &:first-child {
+      width: 8%;
+    }
+    &:nth-child(2) {
+      width: 30.66%;
+    }
+    &:nth-child(3) {
+      width: 30.66%;
+    }
+    &:nth-child(4) {
+      width: 30.66%;
+    }
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+.twitter-feed {
+  p {
+    display: inline;
+  }
+}
+
+.twitter-article {
+  margin-bottom: .4em;
+  & > div {
+    display: inline;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 24px;
+  margin: 40px 0;
+}
