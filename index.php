@@ -107,7 +107,7 @@
     <ul class="project">
       <li>2014</li>
       <li><h3>Buccellati microsite</h3></li>
-      <li><a href="http://buccellati.com/" target="_blank">http://buccellati.com/</a></li>
+      <li>&nbsp;</li>
       <li>with <a href="http://outthereww.com/" target="_blank">Out There</a></li>
     </ul>
     <ul class="project">
