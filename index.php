@@ -88,6 +88,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2014</li>
+      <li><h3>Jeremy Liebman</h3></li>
+      <li><a href="http://jeremyliebman.com/" target="_blank">http://jeremyliebman.com/</a></li>
+      <li>with <a href="http://www.orderdisorder.com/" target="_blank">David Lloyd Yun</a></li>
+    </ul>
+    <ul class="project">
+      <li>2014</li>
       <li><h3>WAX Magazine</h3></li>
       <li><a href="http://www.readwax.com/" target="_blank">http://readwax.com/</a></li>
       <li>with <a href="http://chrisrypkema.com/" target="_blank">Chris Rypkema</a> and WAX</li>
