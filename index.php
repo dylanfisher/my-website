@@ -1,3 +1,6 @@
+<?php
+  $description = "I'm a web developer and programmer with a degree in Fine Arts. I am fluent in HTML, CSS, Javascript and PHP. Currently available for collaboration.";
+?>
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -59,8 +62,7 @@
 -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="I'm a front end developer with a fine art degree. I build responsive websites with HTML5, CSS3 and jQuery. Hire me for your next web project.">
-  <meta name="keywords" content="dylan fisher, dylan, fisher, parsons, design, art, artist, painter, gif, front end developer, programmer, html, css, javascript, jquery, new york, nyc, brooklyn, seattle">
+  <meta name="description" content="<?php echo $description ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title id="head-title">Dylan Fisher</title>
   <link id="favicon" rel="icon" type="image/png" href="images/rainbow/rainbow<?php echo rand(0, 72); ?>.gif">
@@ -82,7 +84,7 @@
       <h2 class="github"><a class="github" href="https://github.com/dylanfisher" target="_blank">Github</a></h2>
       <h2 class="title">about</h2>
       <div>
-         <p>I'm a web developer and programmer with a background in Fine Art. I am well versed in HTML, CSS and Javascript. Right now I'm learning Ruby on Rails, fine tuning my Grunt workflow and learning how to manage databases. Currently available for collaboration.</p>
+         <p><?php echo $description ?></p>
       </div>
     </header>
     <h2 class="title">work</h2>
