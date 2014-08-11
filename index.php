@@ -1,5 +1,5 @@
 <?php
-  $description = "I'm a web developer and programmer with a degree in Fine Arts. I am fluent in HTML, CSS, Javascript and PHP. Currently available for collaboration.";
+  $description = "I'm a web developer and programmer with a degree in Fine Arts. I am fluent in HTML, CSS, Javascript, PHP and intermediate in Ruby on Rails. Currently available for collaboration.";
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2014</li>
+      <li><h3>Aspen Art Museum</h3></li>
+      <li><a href="http://www.aspenartmuseum.org/" target="_blank">http://www.aspenartmuseum.org/</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2014</li>
       <li><h3>Jeremy Liebman</h3></li>
       <li><a href="http://jeremyliebman.com/" target="_blank">http://jeremyliebman.com/</a></li>
       <li>with <a href="http://www.orderdisorder.com/" target="_blank">David Lloyd Yun</a></li>
@@ -98,7 +104,7 @@
       <li>2014</li>
       <li><h3>WAX Magazine</h3></li>
       <li><a href="http://www.readwax.com/" target="_blank">http://readwax.com/</a></li>
-      <li>with <a href="http://chrisrypkema.com/" target="_blank">Chris Rypkema</a> and WAX</li>
+      <li>with <a href="http://chrisrypkema.com/" target="_blank">Chris Rypkema</a> and <a href="http://www.readwax.com/" target="_blank">WAX</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
