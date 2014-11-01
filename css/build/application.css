@@ -407,6 +407,7 @@ body {
 
 a {
   color: #00f;
+  word-wrap: break-word;
 }
 a:active {
   color: #000;
@@ -641,9 +642,11 @@ h3 {
 }
 .project > li:nth-child(2) {
   width: 30.66%;
+  padding-right: 5px;
 }
 .project > li:nth-child(3) {
   width: 30.66%;
+  padding-right: 5px;
 }
 .project > li:nth-child(4) {
   width: 30.66%;

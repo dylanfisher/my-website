@@ -1,5 +1,5 @@
 <?php
-  $description = "I'm a web developer and programmer with a degree in Fine Arts. I am fluent in HTML, CSS, Javascript, PHP and intermediate in Ruby on Rails. Currently available for collaboration.";
+  $description = "I'm a web developer and programmer with a background in Fine Arts. I work at <a href='http://www.linkedbyair.net/' target='_blank'>Linked by Air</a>. <s>Currently available for collaborations.</s> Closed until the spring. &#10052;";
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -88,6 +88,18 @@
       </div>
     </header>
     <h2 class="title">work</h2>
+    <ul class="project">
+      <li>2014</li>
+      <li><h3>Come Together: Surviving Sandy</h3></li>
+      <li><a href="http://cometogethersandy.com/" target="_blank">http://cometogethersandy.com/</a></li>
+      <li>with <a href="http://www.sethhoekstra.com/" target="_blank">Seth Hoekstra</a></li>
+    </ul>
+    <ul class="project">
+      <li>2014</li>
+      <li><h3>Gandhi's Legacy: Houston Perspectives</h3></li>
+      <li><a href="http://gandhislegacyhouston.org/" target="_blank">http://gandhislegacyhouston.org/</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Aspen Art Museum</h3></li>
