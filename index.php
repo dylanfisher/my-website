@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2014</li>
+      <li><h3>Out There</h3></li>
+      <li><a href="http://www.outthereww.com/" target="_blank">http://www.outthereww.com/</a></li>
+      <li>with <a href="http://www.outthereww.com/" target="_blank">Out There</a></li>
+    </ul>
+    <ul class="project">
+      <li>2014</li>
       <li><h3>Come Together: Surviving Sandy</h3></li>
       <li><a href="http://cometogethersandy.com/" target="_blank">http://cometogethersandy.com/</a></li>
       <li>with <a href="http://www.sethhoekstra.com/" target="_blank">Seth Hoekstra</a></li>
