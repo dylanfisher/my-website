@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2014</li>
+      <li><h3>MFA Design for Social Innovation</h3></li>
+      <li><a href="http://dsi.sva.edu/" target="_blank">http://dsi.sva.edu/</a></li>
+      <li>with <a href="http://common-name.com/" target="_blank">Common Name</a></li>
+    </ul>
+    <ul class="project">
+      <li>2014</li>
       <li><h3>Out There</h3></li>
       <li><a href="http://www.outthereww.com/" target="_blank">http://www.outthereww.com/</a></li>
       <li>with <a href="http://www.outthereww.com/" target="_blank">Out There</a></li>
