@@ -106,6 +106,9 @@
       <li><a href="http://www.legacycitydesign.org" target="_blank">http://www.legacycitydesign.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
+    <ul class="project divider">
+      <li>&ndash;</li>
+    </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>MFA Design for Social Innovation</h3></li>
@@ -166,6 +169,9 @@
       <li>&nbsp;</li>
       <li>with <a href="http://outthereww.com" target="_blank">Out There</a></li>
     </ul>
+    <ul class="project divider">
+      <li>&ndash;</li>
+    </ul>
     <ul class="project">
       <li>2013</li>
       <li><h3>AO Public</h3></li>
@@ -219,6 +225,9 @@
       <li><h3>Streaming Museum</h3></li>
       <li><a href="http://streamingmuseum.org" target="_blank">http://streamingmuseum.org</a></li>
       <li>with <a href="http://louisdoulas.info" target="_blank">Louis Doulas</a></li>
+    </ul>
+    <ul class="project divider">
+      <li>&ndash;</li>
     </ul>
     <ul class="project">
       <li>2012</li>
