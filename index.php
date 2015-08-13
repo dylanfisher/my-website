@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2015</li>
+      <li><h3>Sarah Walker</h3></li>
+      <li><a href="http://sarahwalker.org/" target="_blank">http://sarahwalker.org/</a></li>
+      <li>with <a href="http://sarahwalker.org/" target="_blank">Sarah Walker</a></li>
+    </ul>
+    <ul class="project">
+      <li>2015</li>
       <li><h3>Nika Simovich</h3></li>
       <li><a href="http://nikasimovich.com" target="_blank">http://nikasimovich.com</a></li>
       <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>

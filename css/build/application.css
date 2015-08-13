@@ -22,7 +22,6 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -101,7 +100,7 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 a:focus {
-  outline: thin dotted;
+  outline: 0;
 }
 
 /**
@@ -749,8 +748,7 @@ footer {
 
   @page {
     margin: 0.5cm;
-}
-
+  }
   p,
   h2,
   h3 {
@@ -763,3 +761,5 @@ footer {
     page-break-after: avoid;
   }
 }
+
+/*# sourceMappingURL=application.css.map */

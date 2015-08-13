@@ -176,7 +176,7 @@ $(document).ready(function () {
     } else {
       error = 'Uncaught Error.\n' + jqXHR.responseText;
     }
-    alert("error: " + error);
+    console.warn("error: " + error);
   });
 
 
