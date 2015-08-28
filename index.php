@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2015</li>
+      <li><h3>The Menil Collection</h3></li>
+      <li><a href="https://www.menil.org/" target="_blank">https://www.menil.org/</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2015</li>
       <li><h3>Sarah Walker</h3></li>
       <li><a href="http://sarahwalker.org/" target="_blank">http://sarahwalker.org/</a></li>
       <li>with <a href="http://sarahwalker.org/" target="_blank">Sarah Walker</a></li>
@@ -136,7 +142,7 @@
     <ul class="project">
       <li>2014</li>
       <li><h3>Aspen Art Museum</h3></li>
-      <li><a href="http://www.aspenartmuseum.org" target="_blank">http://www.aspenartmuseum.org</a></li>
+      <li><a href="https://www.aspenartmuseum.org" target="_blank">https://www.aspenartmuseum.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
