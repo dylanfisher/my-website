@@ -1,5 +1,5 @@
 <?php
-  $description = "I'm a web developer and programmer with a background in Fine Arts. I work at <a href='http://www.linkedbyair.net/' target='_blank'>Linked by Air</a>.";
+  $description = "I'm a web developer and programmer with a background in Fine Arts. I work at <a href='http://www.linkedbyair.net/' target='_blank'>Linked by Air</a> and enjoy collaborating with others.";
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -90,14 +90,20 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2015</li>
+      <li><h3>Revisions – Zen for Film</h3></li>
+      <li><a href="http://bgcdml.net/revisions/app/" target="_blank">http://bgcdml.net/revisions/app</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2015</li>
       <li><h3>The Menil Collection</h3></li>
-      <li><a href="https://www.menil.org/" target="_blank">https://www.menil.org/</a></li>
+      <li><a href="https://www.menil.org/" target="_blank">https://www.menil.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Sarah Walker</h3></li>
-      <li><a href="http://sarahwalker.org/" target="_blank">http://sarahwalker.org/</a></li>
+      <li><a href="http://sarahwalker.org/" target="_blank">http://sarahwalker.org</a></li>
       <li>with <a href="http://sarahwalker.org/" target="_blank">Sarah Walker</a></li>
     </ul>
     <ul class="project">
@@ -223,7 +229,7 @@
     <ul class="project">
       <li>2013</li>
       <li><h3>Urban Media Aesthetics</h3></li>
-      <li><a href="http://urbanmediaaesthetics.org" target="_blank">http://urbanmediaaesthetics.org</a></li>
+      <li>&nbsp;</li>
       <li>with <a href="http://www.tanyatoft.com" target="_blank">Tanya Toft</a></li>
     </ul>
     <ul class="project">
