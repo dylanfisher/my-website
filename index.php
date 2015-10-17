@@ -90,8 +90,20 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2015</li>
+      <li><h3>Tang Museum</h3></li>
+      <li><a href="https://tang.skidmore.edu" target="_blank">https://tang.skidmore.edu</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2015</li>
+      <li><h3>Print and Screen</h3></li>
+      <li><a href="http://printandscreen.org" target="_blank">http://printandscreen.org</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2015</li>
       <li><h3>Revisions – Zen for Film</h3></li>
-      <li><a href="http://bgcdml.net/revisions/app/" target="_blank">http://bgcdml.net/revisions/app</a></li>
+      <li><a href="http://bgcdml.net/revisions/app" target="_blank">http://bgcdml.net/revisions/app</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
