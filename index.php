@@ -89,6 +89,21 @@
     </header>
     <h2 class="title">work</h2>
     <ul class="project">
+      <li>2016</li>
+      <li><h3>Columbia Graduate School of Architecture, Planning and Preservation</h3></li>
+      <li><a href="https://www.arch.columbia.edu" target="_blank">https://www.arch.columbia.edu</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2016</li>
+      <li><h3>Columbia Books on Architecture and the City</h3></li>
+      <li><a href="https://www.arch.columbia.edu/books" target="_blank">https://www.arch.columbia.edu/books</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project divider">
+      <li>&ndash;</li>
+    </ul>
+    <ul class="project">
       <li>2015</li>
       <li><h3>Tang Museum</h3></li>
       <li><a href="https://tang.skidmore.edu" target="_blank">https://tang.skidmore.edu</a></li>
