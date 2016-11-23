@@ -90,6 +90,18 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2016</li>
+      <li><h3>New Age Real Change</h3></li>
+      <li><a href="http://newagerealchange.com/" target="_blank">http://newagerealchange.com/</a></li>
+      <li>with <a href="http://matthewboblet.com/" target="_blank">Matthew Boblet</a></li>
+    </ul>
+    <ul class="project">
+      <li>2016</li>
+      <li><h3>Pepi Ginsberg</h3></li>
+      <li><a href="http://pepiginsberg.com/" target="_blank">http://pepiginsberg.com/</a></li>
+      <li>with <a href="http://matthewboblet.com/" target="_blank">Matthew Boblet</a></li>
+    </ul>
+    <ul class="project">
+      <li>2016</li>
       <li><h3>Columbia Graduate School of Architecture, Planning and Preservation</h3></li>
       <li><a href="https://www.arch.columbia.edu" target="_blank">https://www.arch.columbia.edu</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
