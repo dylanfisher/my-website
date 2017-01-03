@@ -90,26 +90,32 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2016</li>
+      <li><h3>Wild Flowers</h3></li>
+      <li><a href="http://wildflowers.garden/" target="_blank">wildflowers.garden</a></li>
+      <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
+    </ul>
+    <ul class="project">
+      <li>2016</li>
       <li><h3>New Age Real Change</h3></li>
-      <li><a href="http://newagerealchange.com/" target="_blank">http://newagerealchange.com/</a></li>
+      <li><a href="http://newagerealchange.com/" target="_blank">newagerealchange.com</a></li>
       <li>with <a href="http://matthewboblet.com/" target="_blank">Matthew Boblet</a></li>
     </ul>
     <ul class="project">
       <li>2016</li>
       <li><h3>Pepi Ginsberg</h3></li>
-      <li><a href="http://pepiginsberg.com/" target="_blank">http://pepiginsberg.com/</a></li>
+      <li><a href="http://pepiginsberg.com/" target="_blank">pepiginsberg.com</a></li>
       <li>with <a href="http://matthewboblet.com/" target="_blank">Matthew Boblet</a></li>
     </ul>
     <ul class="project">
       <li>2016</li>
       <li><h3>Columbia Graduate School of Architecture, Planning and Preservation</h3></li>
-      <li><a href="https://www.arch.columbia.edu" target="_blank">https://www.arch.columbia.edu</a></li>
+      <li><a href="https://www.arch.columbia.edu" target="_blank">arch.columbia.edu</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2016</li>
       <li><h3>Columbia Books on Architecture and the City</h3></li>
-      <li><a href="https://www.arch.columbia.edu/books" target="_blank">https://www.arch.columbia.edu/books</a></li>
+      <li><a href="https://www.arch.columbia.edu/books" target="_blank">arch.columbia.edu/books</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project divider">
@@ -118,43 +124,43 @@
     <ul class="project">
       <li>2015</li>
       <li><h3>Tang Museum</h3></li>
-      <li><a href="https://tang.skidmore.edu" target="_blank">https://tang.skidmore.edu</a></li>
+      <li><a href="https://tang.skidmore.edu" target="_blank">tang.skidmore.edu</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Print and Screen</h3></li>
-      <li><a href="http://printandscreen.org" target="_blank">http://printandscreen.org</a></li>
+      <li><a href="http://printandscreen.org" target="_blank">printandscreen.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Revisions – Zen for Film</h3></li>
-      <li><a href="http://bgcdml.net/revisions/app" target="_blank">http://bgcdml.net/revisions/app</a></li>
+      <li><a href="http://bgcdml.net/revisions/app" target="_blank">bgcdml.net/revisions/app</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>The Menil Collection</h3></li>
-      <li><a href="https://www.menil.org/" target="_blank">https://www.menil.org</a></li>
+      <li><a href="https://www.menil.org/" target="_blank">menil.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Sarah Walker</h3></li>
-      <li><a href="http://sarahwalker.org/" target="_blank">http://sarahwalker.org</a></li>
+      <li><a href="http://sarahwalker.org/" target="_blank">sarahwalker.org</a></li>
       <li>with <a href="http://sarahwalker.org/" target="_blank">Sarah Walker</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Nika Simovich</h3></li>
-      <li><a href="http://nikasimovich.com" target="_blank">http://nikasimovich.com</a></li>
+      <li><a href="http://nikasimovich.com" target="_blank">nikasimovich.com</a></li>
       <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
     </ul>
     <ul class="project">
       <li>2015</li>
       <li><h3>Legacy City Design</h3></li>
-      <li><a href="http://www.legacycitydesign.org" target="_blank">http://www.legacycitydesign.org</a></li>
+      <li><a href="http://www.legacycitydesign.org" target="_blank">legacycitydesign.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project divider">
@@ -163,49 +169,49 @@
     <ul class="project">
       <li>2014</li>
       <li><h3>MFA Design for Social Innovation</h3></li>
-      <li><a href="http://dsi.sva.edu" target="_blank">http://dsi.sva.edu</a></li>
+      <li><a href="http://dsi.sva.edu" target="_blank">dsi.sva.edu</a></li>
       <li>with <a href="http://common-name.com" target="_blank">Common Name</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Out There</h3></li>
-      <li><a href="http://www.outthereww.com" target="_blank">http://www.outthereww.com</a></li>
+      <li><a href="http://www.outthereww.com" target="_blank">outthereww.com</a></li>
       <li>with <a href="http://www.outthereww.com" target="_blank">Out There</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Come Together: Surviving Sandy</h3></li>
-      <li><a href="http://cometogethersandy.com" target="_blank">http://cometogethersandy.com</a></li>
+      <li><a href="http://cometogethersandy.com" target="_blank">cometogethersandy.com</a></li>
       <li>with <a href="http://www.sethhoekstra.com" target="_blank">Seth Hoekstra</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Gandhi's Legacy: Houston Perspectives</h3></li>
-      <li><a href="http://gandhislegacyhouston.org" target="_blank">http://gandhislegacyhouston.org</a></li>
+      <li><a href="http://gandhislegacyhouston.org" target="_blank">gandhislegacyhouston.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Aspen Art Museum</h3></li>
-      <li><a href="https://www.aspenartmuseum.org" target="_blank">https://www.aspenartmuseum.org</a></li>
+      <li><a href="https://www.aspenartmuseum.org" target="_blank">aspenartmuseum.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Jeremy Liebman</h3></li>
-      <li><a href="http://jeremyliebman.com" target="_blank">http://jeremyliebman.com</a></li>
+      <li><a href="http://jeremyliebman.com" target="_blank">jeremyliebman.com</a></li>
       <li>with <a href="http://www.orderdisorder.com" target="_blank">David Lloyd Yun</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>WAX Magazine</h3></li>
-      <li><a href="http://www.readwax.com" target="_blank">http://readwax.com</a></li>
+      <li><a href="http://www.readwax.com" target="_blank">readwax.com</a></li>
       <li>with <a href="http://chrisrypkema.com" target="_blank">Chris Rypkema</a> and <a href="http://www.readwax.com" target="_blank">WAX</a></li>
     </ul>
     <ul class="project">
       <li>2014</li>
       <li><h3>Banner Furniture</h3></li>
-      <li><a href="http://www.bannerfurniture.com" target="_blank">http://bannerfurniture.com</a></li>
+      <li><a href="http://www.bannerfurniture.com" target="_blank">bannerfurniture.com</a></li>
       <li>with <a href="http://laurelschwulst.com" target="_blank">Laurel Schwulst</a></li>
     </ul>
     <ul class="project">
@@ -226,31 +232,31 @@
     <ul class="project">
       <li>2013</li>
       <li><h3>AO Public</h3></li>
-      <li><a href="http://www.aopublic.com" target="_blank">http://aopublic.com</a></li>
+      <li><a href="http://www.aopublic.com" target="_blank">aopublic.com</a></li>
       <li>with <a href="http://laurelschwulst.com" target="_blank">Laurel Schwulst</a></li>
     </ul>
     <ul class="project">
       <li>2013</li>
       <li><h3>Anoka Faruqee</h3></li>
-      <li><a href="http://anokafaruqee.com" target="_blank">http://anokafaruqee.com</a></li>
+      <li><a href="http://anokafaruqee.com" target="_blank">anokafaruqee.com</a></li>
       <li>with <a href="http://www.appliedaesthetics.org" target="_blank">Julian Bittiner</a></li>
     </ul>
     <ul class="project">
       <li>2013</li>
       <li><h3>Printed Matter</h3></li>
-      <li><a href="http://printedmatter.org" target="_blank">http://printedmatter.org</a></li>
+      <li><a href="http://printedmatter.org" target="_blank">printedmatter.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
       <li>2013</li>
       <li><h3>Josie Ng</h3></li>
-      <li><a href="http://josieng.com" target="_blank">http://josieng.com</a></li>
+      <li>&nbsp;</li>
       <li>with <a href="http://josieng.com" target="_blank">Josie Ng</a></li>
     </ul>
     <ul class="project">
       <li>2013</li>
       <li><h3>Yale AIDS Memorial Project</h3></li>
-      <li><a href="http://yamp.org" target="_blank">http://yamp.org</a></li>
+      <li><a href="http://yamp.org" target="_blank">yamp.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
@@ -262,7 +268,7 @@
     <ul class="project">
       <li>2013</li>
       <li><h3>Whitney Museum of American Art</h3></li>
-      <li><a href="http://whitney.org" target="_blank">http://whitney.org</a></li>
+      <li><a href="http://whitney.org" target="_blank">whitney.org</a></li>
       <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
     </ul>
     <ul class="project">
@@ -274,7 +280,7 @@
     <ul class="project">
       <li>2013</li>
       <li><h3>Streaming Museum</h3></li>
-      <li><a href="http://streamingmuseum.org" target="_blank">http://streamingmuseum.org</a></li>
+      <li><a href="http://streamingmuseum.org" target="_blank">streamingmuseum.org</a></li>
       <li>with <a href="http://louisdoulas.info" target="_blank">Louis Doulas</a></li>
     </ul>
     <ul class="project divider">
@@ -283,7 +289,7 @@
     <ul class="project">
       <li>2012</li>
       <li><h3>Nordic Outbreak</h3></li>
-      <li><a href="http://nordicoutbreak.com" target="_blank">http://nordicoutbreak.com</a></li>
+      <li><a href="http://nordicoutbreak.com" target="_blank">nordicoutbreak.com</a></li>
       <li>with <a href="http://louisdoulas.info" target="_blank">Louis Doulas</a> and <a href="http://www.tanyatoft.com" target="_blank">Tanya Toft</a></li>
     </ul>
 
