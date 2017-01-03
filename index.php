@@ -89,10 +89,13 @@
     </header>
     <h2 class="title">work</h2>
     <ul class="project">
-      <li>2016</li>
+      <li>2017</li>
       <li><h3>Wild Flowers</h3></li>
       <li><a href="http://wildflowers.garden/" target="_blank">wildflowers.garden</a></li>
       <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
+    </ul>
+    <ul class="project divider">
+      <li>&ndash;</li>
     </ul>
     <ul class="project">
       <li>2016</li>
