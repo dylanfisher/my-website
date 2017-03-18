@@ -90,6 +90,12 @@
     <h2 class="title">work</h2>
     <ul class="project">
       <li>2017</li>
+      <li><h3>Williams College Museum of Art</h3></li>
+      <li><a href="https://wcma.williams.edu/" target="_blank">wcma.williams.edu</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2017</li>
       <li><h3>Wild Flowers</h3></li>
       <li><a href="http://wildflowers.garden/" target="_blank">wildflowers.garden</a></li>
       <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
