@@ -60,17 +60,6 @@ module.exports = function(grunt) {
       }
     },
 
-    imagemin: {
-      dynamic: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: ['**/*.{png,jpg,gif}'],
-          dest: 'images/'
-        }]
-      }
-    },
-
     watch: {
       options: {
         livereload: true,
@@ -100,13 +89,6 @@ module.exports = function(grunt) {
         options: {
           spawn: false,
         }
-      },
-      images: {
-        files: ['images/**/*.{png,jpg,gif}', 'images/*.{png,jpg,gif}'],
-        tasks: ['imagemin'],
-        options: {
-          spawn: false,
-        }
       }
     },
 
@@ -124,7 +106,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is basically a rebuild
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass']);
 
   grunt.registerTask('dev', ['connect', 'watch']);
 

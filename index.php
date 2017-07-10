@@ -1,5 +1,5 @@
 <?php
-  $description = "I'm a web developer and programmer with a background in Fine Arts. I work at <a href='http://www.linkedbyair.net/' target='_blank'>Linked by Air</a> and enjoy collaborating with others.";
+  $description = "Dylan Fisher is a full stack Ruby on Rails developer based in New York City. He is the lead developer at <a href='http://www.linkedbyair.net/' target='_blank'>Linked by Air</a> and recently taught Core Interaction at Parsons School of Design."
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -82,12 +82,24 @@
         <span id="icon" class="icon blue"></span>
       </div>
       <h2 class="github"><a class="github" href="https://github.com/dylanfisher" target="_blank">Github</a></h2>
-      <h2 class="title">about</h2>
+      <h2 class="title">About</h2>
       <div>
          <p><?php echo $description ?></p>
       </div>
     </header>
-    <h2 class="title">work</h2>
+    <h2 class="title">Work</h2>
+    <ul class="project">
+      <li>2017</li>
+      <li><h3>Midnight Commercial</h3></li>
+      <li><a href="http://midnightcommercial.com/" target="_blank">midnightcommercial.com</a></li>
+      <li>with <a href="http://richardthe.com/" target="_blank">Richard The</a></li>
+    </ul>
+    <ul class="project">
+      <li>2017</li>
+      <li><h3>Core Interaction at Parsons School of Design</h3></li>
+      <li><a href="http://ci.nikasimovich.com/" target="_blank">ci.nikasimovich.com</a></li>
+      <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
+    </ul>
     <ul class="project">
       <li>2017</li>
       <li><h3>Williams College Museum of Art</h3></li>
@@ -298,11 +310,11 @@
     <ul class="project">
       <li>2012</li>
       <li><h3>Nordic Outbreak</h3></li>
-      <li><a href="http://nordicoutbreak.com" target="_blank">nordicoutbreak.com</a></li>
+      <li><a href="http://nordicoutbreak.streamingmuseum.org/" target="_blank">nordicoutbreak.com</a></li>
       <li>with <a href="http://louisdoulas.info" target="_blank">Louis Doulas</a> and <a href="http://www.tanyatoft.com" target="_blank">Tanya Toft</a></li>
     </ul>
 
-    <h2 class="title">feed</h2>
+    <h2 class="title">Feed</h2>
     <div id="twitter-feed" class="twitter-feed"></div>
     <footer>
       <span class="blue">&#9996;</span>

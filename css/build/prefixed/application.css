@@ -702,7 +702,8 @@ h3 {
 }
 
 .title {
-  margin-top: 20px;
+  margin-top: 1em;
+  margin-bottom: 6px;
 }
 
 .project {
