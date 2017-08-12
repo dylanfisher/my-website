@@ -96,6 +96,18 @@
     </ul>
     <ul class="project">
       <li>2017</li>
+      <li><h3>Seal Consulting</h3></li>
+      <li><a href="http://sealconsulting.ch/" target="_blank">sealconsulting.ch</a></li>
+      <li>with <a href="http://www.outthereww.com" target="_blank">Out There</a></li>
+    </ul>
+    <ul class="project">
+      <li>2017</li>
+      <li><h3>The Playlist Generation</h3></li>
+      <li><a href="http://www.theplaylistgeneration.com/" target="_blank">theplaylistgeneration.com</a></li>
+      <li>with <a href="http://www.outthereww.com" target="_blank">Out There</a></li>
+    </ul>
+    <ul class="project">
+      <li>2017</li>
       <li><h3>Core Interaction at Parsons School of Design</h3></li>
       <li><a href="http://ci.nikasimovich.com/" target="_blank">ci.nikasimovich.com</a></li>
       <li>with <a href="http://nikasimovich.com" target="_blank">Nika Simovich</a></li>
