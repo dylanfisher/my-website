@@ -90,6 +90,12 @@
     <h2 class="title">Work</h2>
     <ul class="project">
       <li>2017</li>
+      <li><h3>Institute of Contemporary Art, Los Angeles</h3></li>
+      <li><a href="https://www.theicala.org/en" target="_blank">theicala.org</a></li>
+      <li>with <a href="http://linkedbyair.net" target="_blank">Linked by Air</a></li>
+    </ul>
+    <ul class="project">
+      <li>2017</li>
       <li><h3>Midnight Commercial</h3></li>
       <li><a href="http://midnightcommercial.com/" target="_blank">midnightcommercial.com</a></li>
       <li>with <a href="http://richardthe.com/" target="_blank">Richard The</a></li>
